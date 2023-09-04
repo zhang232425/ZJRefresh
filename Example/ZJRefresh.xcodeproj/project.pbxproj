@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2B42F663B21661E3DE98DC8D /* ZJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZJRefresh.podspec; path = ../ZJRefresh.podspec; sourceTree = "<group>"; };
+		2B42F663B21661E3DE98DC8D /* ZJRefresh.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZJRefresh.podspec; path = ../ZJRefresh.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACD01AFB9204008FA782 /* ZJRefresh_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJRefresh_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,13 +40,13 @@
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		9A9CB7D68AF7A4E93CEE5BD7 /* Pods-ZJRefresh_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRefresh_Example.release.xcconfig"; path = "Target Support Files/Pods-ZJRefresh_Example/Pods-ZJRefresh_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9E6362B4412CA06229D77D70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9E6362B4412CA06229D77D70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		B8B388BCEE8433755E5C066A /* Pods-ZJRefresh_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRefresh_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZJRefresh_Tests/Pods-ZJRefresh_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BA6CE34D3D6A2FBC98EE6212 /* Pods-ZJRefresh_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRefresh_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZJRefresh_Example/Pods-ZJRefresh_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C10AA027CAD7970F53EC8D9A /* Pods_ZJRefresh_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJRefresh_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D35264D0520C590A206FCEEB /* Pods_ZJRefresh_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZJRefresh_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E59C6B1A8F1BE6A6D7592633 /* Pods-ZJRefresh_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZJRefresh_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZJRefresh_Tests/Pods-ZJRefresh_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		F03DFC9F34938FD472CE3FB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F03DFC9F34938FD472CE3FB5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +147,6 @@
 				E59C6B1A8F1BE6A6D7592633 /* Pods-ZJRefresh_Tests.debug.xcconfig */,
 				B8B388BCEE8433755E5C066A /* Pods-ZJRefresh_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -172,6 +171,7 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				BBBE6849D7311DDA41D2589A /* [CP] Embed Pods Frameworks */,
+				90475FAA12659AE84B4CE9E0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -227,6 +227,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -284,6 +285,24 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		90475FAA12659AE84B4CE9E0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ZJRefresh_Example/Pods-ZJRefresh_Example-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ZJRefresh/ZJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ZJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZJRefresh_Example/Pods-ZJRefresh_Example-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9C3274917A1EBA2EA6E022C6 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -313,11 +332,11 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZJRefresh_Example/Pods-ZJRefresh_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZJRefresh/ZJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/ESPullToRefresh/ESPullToRefresh.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ESPullToRefresh.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

@@ -1,0 +1,23 @@
+PODS:
+  - ESPullToRefresh (2.9.3)
+  - ZJRefresh (0.1.0):
+    - ESPullToRefresh
+
+DEPENDENCIES:
+  - ZJRefresh (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - ESPullToRefresh
+
+EXTERNAL SOURCES:
+  ZJRefresh:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ESPullToRefresh: 0d68daa602b343c81753a1b95e09fd0bfcddfd40
+  ZJRefresh: 2ab367241aea892e43afa57498d07c47f4c38897
+
+PODFILE CHECKSUM: 056f2f9303c4bc949f0fb0981378e71516397b24
+
+COCOAPODS: 1.11.2
