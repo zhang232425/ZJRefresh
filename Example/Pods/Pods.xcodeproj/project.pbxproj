@@ -21,13 +21,11 @@
 		698E1DE3480528CA7E7C6BF8BA464B6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		71DC58C3107E9AA862E94A3B9595BB6C /* ZJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B07E9CF7A67813B8198021B224DE242A /* ZJRefresh-dummy.m */; };
 		7A996587B99933F5D26AFBF768867508 /* ESRefreshProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE0AD253219E9B34118571E3D4490CE1 /* ESRefreshProtocol.swift */; };
-		81AA1FEAF4571C1242003A1879B27918 /* down.pdf in Resources */ = {isa = PBXBuildFile; fileRef = FC502B0FDF19C1242DAFBB86C8E0FE9E /* down.pdf */; };
 		8B56214B7C72DD6BC472DBA3ECF7590F /* ZJRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC9C6F9195633631C0A1245AEA91FCE1 /* ZJRefresh.swift */; };
 		8E8DDF86975EECCAA22BD9E8F68E010F /* Pods-ZJRefresh_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 99E1B10FD6F7394E46A12B24ADF20EBC /* Pods-ZJRefresh_Tests-dummy.m */; };
 		922BDCE675B956A7ACD5F48C36FFCF3A /* icon_pull_to_refresh_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 14F856A1CF331BC124C6498069AF97CF /* icon_pull_to_refresh_arrow@2x.png */; };
 		A77827AC7F4F709A5F00F331DE59093E /* ASRefresh.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E589DA4ECC1BE6793ABCF63E8397CCB2 /* ASRefresh.xcassets */; };
 		B93753EA60F82EE9D8DB77970AB8364D /* ES.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F447670ED574B3D3467C0DC441A7B5 /* ES.swift */; };
-		C31065CEF6F9951A999E7346AB8C6165 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 21876F366DFC1A3C217838DF6BB27E68 /* Contents.json */; };
 		C6755B1DE14B0480C2C3289EC788029D /* ESRefreshFooterAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF08A8AFC2F1B634C6AC217C4C2C28EC /* ESRefreshFooterAnimator.swift */; };
 		C8FDDD5C4B5FEF09F218D2D82A0F6023 /* ESRefreshComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276F55BE72F5FD11B4869DAD9B697B9E /* ESRefreshComponent.swift */; };
 		D699827D2AA5AB71003F9A2A /* ZJRefreshFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699827C2AA5AB71003F9A2A /* ZJRefreshFooter.swift */; };
@@ -90,7 +88,6 @@
 		121FF466D75DFD2F8AB13FB0BB7AD3C0 /* ESPullToRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ESPullToRefresh.modulemap; sourceTree = "<group>"; };
 		14F856A1CF331BC124C6498069AF97CF /* icon_pull_to_refresh_arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "icon_pull_to_refresh_arrow@2x.png"; path = "Sources/Animator/icon_pull_to_refresh_arrow@2x.png"; sourceTree = "<group>"; };
 		1D191518A5F30BFF862251B5EA1A5101 /* Bundle+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Bundle+Extension.swift"; path = "ZJRefresh/Classes/Bundle+Extension.swift"; sourceTree = "<group>"; };
-		21876F366DFC1A3C217838DF6BB27E68 /* Contents.json */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 		22F447670ED574B3D3467C0DC441A7B5 /* ES.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ES.swift; path = Sources/ES.swift; sourceTree = "<group>"; };
 		268B6DC91C564982E5EFCB511A03CB8E /* ZJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZJRefresh.modulemap; sourceTree = "<group>"; };
 		276F55BE72F5FD11B4869DAD9B697B9E /* ESRefreshComponent.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ESRefreshComponent.swift; path = Sources/ESRefreshComponent.swift; sourceTree = "<group>"; };
@@ -146,7 +143,6 @@
 		ED79C89A375B9C00BF9CA343DF7671EE /* Pods-ZJRefresh_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZJRefresh_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EFC4CB6C0926328AE64D44EAFFBF8FB3 /* Pods-ZJRefresh_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZJRefresh_Example-umbrella.h"; sourceTree = "<group>"; };
 		F24D0214283FC9353F155E52B0F58332 /* ResourceBundle-ESPullToRefresh-ESPullToRefresh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ESPullToRefresh-ESPullToRefresh-Info.plist"; sourceTree = "<group>"; };
-		FC502B0FDF19C1242DAFBB86C8E0FE9E /* down.pdf */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.pdf; path = down.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -240,7 +236,6 @@
 				A80859A238DDE3A52CAC89E36B0DE887 /* ZJRefreshHeader.swift */,
 				D699827C2AA5AB71003F9A2A /* ZJRefreshFooter.swift */,
 				613545B204DB1C23A8158A4E260EF20A /* ZJRefreshInfo.swift */,
-				52506FB48CDEB98A381C6F1256E9B4D2 /* down.imageset */,
 				4FB804BEFD9423049BA0391DA9A2600A /* Pod */,
 				33E399131AA3E8C185C2998DF6A31646 /* Support Files */,
 			);
@@ -256,16 +251,6 @@
 				A9DD06B55434A8788EB4F1D359EC59D9 /* ZJRefresh.podspec */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		52506FB48CDEB98A381C6F1256E9B4D2 /* down.imageset */ = {
-			isa = PBXGroup;
-			children = (
-				21876F366DFC1A3C217838DF6BB27E68 /* Contents.json */,
-				FC502B0FDF19C1242DAFBB86C8E0FE9E /* down.pdf */,
-			);
-			name = down.imageset;
-			path = ZJRefresh/Assets/down.imageset;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -588,8 +573,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A77827AC7F4F709A5F00F331DE59093E /* ASRefresh.xcassets in Resources */,
-				C31065CEF6F9951A999E7346AB8C6165 /* Contents.json in Resources */,
-				81AA1FEAF4571C1242003A1879B27918 /* down.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
